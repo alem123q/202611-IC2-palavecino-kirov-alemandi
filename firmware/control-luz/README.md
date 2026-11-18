@@ -1,8 +1,3 @@
-## Requisitos
-
-- ESP-IDF 6.1
-- Target: ESP32-C3
-
 # Control Luz — Firmware ESP32-C3
 
 Firmware para el nodo de iluminación NodeAlert IoT. Lee presencia, luz, temperatura y
