@@ -60,22 +60,22 @@
 
 // ===== WiFi / MQTT (sobrescribibles en config_local.h) =====
 #ifndef WIFI_SSID
-#define WIFI_SSID "Palavecino"
+#error "Definir WIFI_SSID en config_local.h"
 #endif
 #ifndef WIFI_PASS
-#define WIFI_PASS "CAMBIAR"
+#error "Definir WIFI_PASS en config_local.h"
 #endif
 #ifndef MQTT_BROKER_URI
-#define MQTT_BROKER_URI "mqtt://192.168.0.126:1883"
+#error "Definir MQTT_BROKER_URI en config_local.h"
 #endif
 #ifndef MQTT_USER
-#define MQTT_USER "nodealert_esp32"
+#error "Definir MQTT_USER en config_local.h"
 #endif
 #ifndef MQTT_PASS
-#define MQTT_PASS "CAMBIAR"
+#error "Definir MQTT_PASS en config_local.h"
 #endif
 #ifndef DEVICE_ID
-#define DEVICE_ID "nodealert-luz01"
+#error "Definir DEVICE_ID en config_local.h"
 #endif
 
 #define DEBOUNCE_MS 2000
